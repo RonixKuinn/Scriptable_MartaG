@@ -24,7 +24,7 @@ public class InventorySlot : MonoBehaviour
 
     void InspectItem()
     {
-        if(slotItem != null && insptionWindow.activeInHierarchy)
+        if(slotItem != null && !insptionWindow.activeInHierarchy)
         {   
             inspectionImage.sprite = slotItem.itemSprite;
             inspecionName.text = slotItem.itemName;
