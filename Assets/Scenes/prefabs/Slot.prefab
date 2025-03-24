@@ -129,6 +129,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92de1062de847044ea3d4dbc8ec04bbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slotItem: {fileID: 0}
+  slotNumber: 0
+  insptionWindow: {fileID: 0}
+  inspectionImage: {fileID: 0}
+  inspecionName: {fileID: 0}
+  inspectionDescription: {fileID: 0}
+  cloesButton: {fileID: 0}
+  deleteButton: {fileID: 0}
 --- !u!1 &8811368259921267966
 GameObject:
   m_ObjectHideFlags: 0
